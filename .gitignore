@@ -1,0 +1,61 @@
+# ignore pdfs
+pdfs/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore node_modules directory (Node.js projects)
+node_modules/
+
+# Ignore logs
+logs/
+*.log
+npm-debug.log*
+
+# Ignore compiled files
+*.class
+*.o
+*.so
+
+# Ignore dependencies
+vendor/
+composer.lock
+package-lock.json
+
+# Ignore build files
+dist/
+build/
+
+# Ignore Python compiled files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore virtual environment (Python projects)
+.venv/
+ENV/
+env/
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Ignore coverage reports
+coverage/
+*.lcov
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# Ignore secrets
+.env
+.secret
